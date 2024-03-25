@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+}
+
+
+.header {
+    background-image: url("./images/banner/banner2.png"); 
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width: 100vw;    
+    color: #fff;    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.header-tittle{
+    color: var(--Dark-01, #151414);
+    font-size: 65px;
+    font-size: 65px;
+    margin: auto;
+    text-align: right;
+    justify-content: flex-end;
+
+    
+}
+.btn-prymare{
+    background-color: #F15B22;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 15px;
+    
+}
+.header-discription{
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    margin: auto;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.header-content{
+    width: 600px;
+    justify-content: flex-end;
+    text-align: right;
+    margin-left:600px ;
+}
+.main-container{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    gap: 300px;
+    text-align: left;
+    margin-top: 50px;
+}
+.main-item{
+   text-align: left;
+   margin-top: 20px;
+   color: #444343;
+   
+}
+.main-tittle{
+    margin-bottom: 10px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 400px;
+}
+.main-discription{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-logo{
+    width: 451px;
+    height: 498px;
+   
+    
+}
+.service-container{
+    margin: auto;
+    margin: 100;
+    width: 90vw;
+    height: 50vh;
+    background-color: #cecece;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+.service-tittle{
+    text-align: center;
+    margin: 50px;
+}
+.service-list{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 50px;
+   
+}
+.service{
+    padding-top: 230px;
+}
+.hand-container {
+    width: 1140px;
+    height: 200px;   
+    margin: auto;
+   /* background-color: #F15B22; */
+}
+.log{
+    margin-top: 100px;
+}
+.hand-container{
+    background-image: url("./images/watch.png");
+    background-blend-mode:linear-gradient(90deg, rgba(255,162,10,1) 0%, rgba(236,207,117,1) 47%, rgba(238,238,238,1) 100%);
+  
+    
+}
+.hand-section{
+    justify-content: flex-start;
+    padding-top: 50px;
+    margin: 20px;
+}
+.hand-btn{
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F15B22;
+    color: black;
+}
+
+.footer-container{
+    margin-top: 100px;
+    width: 1600px;
+    height: 477px;
+    background-color: #151414;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.footer-photo{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+.footer-tittle{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.footer-email{
+    padding-top: 30px;
+}
+.footer-btn{
+    margin-top: 10px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.footer-email{
+    margin-top: 15px;
+    text-align: center;
+    
+    
+   
+}
+.footer-tittle-down{
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom:5px;
+    
+}
